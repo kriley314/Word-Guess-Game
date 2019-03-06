@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  .page-wrap {
+    min-height: 100%;
+    margin: 0 auto;
+    /* equal to footer height */
+    margin-bottom: -32px; 
+  }
+  .page-wrap:after {
+    content: "";
+    display: block;
+  }
+  .site-footer, .page-wrap:after { 
+    height: 32px; 
+  }
+  .site-footer {
+    background: orange;
+  }
+
+  ul {
+      margin-inline-start: 75%;
+  }
+
+  .bg-light {
+    background-color: #4aaaa5 !important;
+  }
+
+#hiddenPhrase {
+    font-family: 'Courier New', Courier, monospace;
+}
